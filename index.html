@@ -1,92 +1,86 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ariel – Creative Marketing Strategist</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ariel — Marketing Strategist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="hero.png">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <header class="hero" id="home">
-        <div class="hero-content">
-            <h1>Hi, I’m Ariel.</h1>
-            <p>I’m a marketing strategist and creative thinker who thrives at the intersection of brand, content, and connection. Whether I’m leading a campaign, mapping a customer journey, or bringing a new product to market, I love turning big ideas into meaningful, measurable work.</p>
-            <p>Currently exploring my next full-time opportunity • Based in Salt Lake City, open to remote and hybrid roles</p>
-            <p>Let’s connect → <a href="mailto:youremail@example.com" style="color: #fff; text-decoration: underline;">youremail@example.com</a> | <a href="https://www.linkedin.com/in/example" target="_blank" style="color: #fff; text-decoration: underline;">LinkedIn</a></p>
+  <nav class="nav">
+    <a class="logo" href="#home">Ariel</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#notes">Notes</a>
+      <a class="btn" href="#contact">Say hi</a>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <img class="hero-bg" src="hero.png" alt="">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <span class="pill">📍 Salt Lake City • open to remote</span>
+      <h1>Hi, I’m <span class="underline">Ariel</span>.</h1>
+      <p class="lead">Marketing strategist + social storyteller who loves data‑driven creative, high‑energy launches, and brands that actually feel human.</p>
+      <div class="chips">
+        <span>Integrated campaigns</span><span>Social & creators</span><span>Lifecycle</span><span>Brand voice</span>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="#work">See my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="wrap">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>Big‑picture thinker, detail do‑er. I build systems that make good ideas easy to ship, then measure what matters so the next round is smarter.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>What I’m great at</h3>
+          <ul class="check">
+            <li>Turning fuzzy goals into clear plans</li>
+            <li>Social strategy, content calendars, creator briefs</li>
+            <li>Messaging, pillars, and brand voice</li>
+            <li>Cross‑functional herding without chaos</li>
+          </ul>
         </div>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>After spending the last decade growing brands through digital strategy, content creation, and cross-channel storytelling, I’ve learned that I’m at my best when I can see — and shape — the big picture. I bring a blend of analytical thinking, creative problem-solving, and genuine curiosity to every team I join.</p>
-            <p>I’ve led integrated campaigns, built social media playbooks from scratch, collaborated across departments to define brand voice, and managed creators and vendors alike. But beyond the resume, I’m someone who:</p>
-            <ul>
-                <li>Believes in honest marketing and purposeful work</li>
-                <li>Thinks a good brainstorm starts with a good question</li>
-                <li>Can run a marketing campaign and organize the snack cabinet (it matters)</li>
-            </ul>
-            <p>When I’m not deep in strategy decks or post-it notes, you’ll find me curating Spotify playlists, planning my next trip, or figuring out how to make life a little more efficient (hello, Amazon hacks).</p>
-        </section>
-        <section id="work">
-            <h2>Work Highlights</h2>
-            <div class="project">
-                <h3>Sears Home Services — Brand Membership Launch</h3>
-                <p><strong>Role:</strong> Integrated Marketing Strategist</p>
-                <p><strong>What I did:</strong></p>
-                <ul>
-                    <li>Led the go-to-market strategy for the launch of Sears Home Advantage, a nationwide membership program</li>
-                    <li>Crafted the campaign narrative, messaging pillars, and lifecycle touchpoints</li>
-                    <li>Collaborated with product, CRM, creative, and media teams to bring it to life across channels</li>
-                </ul>
-                <p><strong>Result:</strong> 1.2M members in the first 6 months</p>
-            </div>
-            <div class="project">
-                <h3>Overstock — Social Media Overhaul</h3>
-                <p><strong>Role:</strong> Social Media Manager</p>
-                <p><strong>What I did:</strong></p>
-                <ul>
-                    <li>Built a new content strategy focused on storytelling, product education, and seasonal moments</li>
-                    <li>Increased video performance by 100% and boosted engagement across Pinterest and Meta</li>
-                    <li>Managed influencer campaigns and created content briefs to support always-on and promotional calendars</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Opal &amp; Quin — My Creative Side Hustle</h3>
-                <p><strong>What it is:</strong> My Etsy shop for printable invites, party games, and templates</p>
-                <p><strong>Why it matters:</strong> I love making beautiful, functional things. This project lets me explore trends, test messaging, and work directly with customers</p>
-                <p><strong>Fun fact:</strong> I built everything — from the branding and photography to the SEO and listings</p>
-            </div>
-        </section>
-        <section id="blog">
-            <h2>Blog</h2>
-            <ul>
-                <li><strong>The Power of Starting Over (Again)</strong></li>
-                <li><strong>My Favorite Tools for Managing Campaign Chaos</strong></li>
-                <li><strong>Why I Still Believe in Organic Content</strong></li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Ready to talk marketing, content, or next steps?</p>
-            <p>
-               📧 <a href="mailto:youremail@example.com">youremail@example.com</a><br>
-               💼 <a href="https://www.linkedin.com/in/example" target="_blank">LinkedIn</a><br>
-               📅 <a href="https://calendly.com/example" target="_blank">Schedule a time</a>
-            </p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Ariel. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <div class="card">
+          <h3>What I value</h3>
+          <ul class="check">
+            <li>Honest marketing and useful content</li>
+            <li>Speed with intention</li>
+            <li>Clean dashboards, cleaner copy</li>
+            <li>Teams that cheer each other on</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="wrap">
+      <div class="section-head">
+        <h2>Work Highlights</h2>
+        <p>Here are a few projects I loved. Ping me for deeper case studies.</p>
+      </div>
+
+      <div class="grid three">
+        <article class="card hover">
+          <span class="tag">Launch</span>
+          <h3>Sears Home Advantage</h3>
+          <p>Go‑to‑market strategy for a nationwide membership. Narrative, messaging pillars, lifecycle map, cross‑channel rollout.</p>
+          <p class="meta">Integrated strategy • CRM • Cross‑functional</p>
+        </article>
+
+        <article class="card hover">
+          <span class="tag">Social</span>
+          <h3>Overstock Social Rebuild</h3>
+          <p>New content system across Meta, Pinterest, TikTok. Doubled video performance and lifted engagement with seasonal storytelling.</p>
+          <p class="meta">Pla
